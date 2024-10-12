@@ -3,8 +3,8 @@ const path = require("path");
 module.exports = {
   entry: "./js/script.js",
   output: {
-    path: path.resolve(__dirname, "public"), // Gera os arquivos na pasta public
-    filename: "main.js",
+    path: path.resolve(__dirname, "public"), // Coloque a pasta de saída como "public"
+    filename: "main.js", // O arquivo gerado pelo Webpack
   },
   module: {
     rules: [
