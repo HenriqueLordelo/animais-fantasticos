@@ -4,7 +4,7 @@ module.exports = {
   entry: "./js/script.js",
   output: {
     path: path.resolve(__dirname, "public"), // Gera os arquivos na pasta public
-    filename: "main.js", // Saída como public/main.js
+    filename: "main.js",
   },
   module: {
     rules: [
